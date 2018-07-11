@@ -114,10 +114,23 @@
     -webkit-animation:question-title-animation 5s infinite; /* Safari and Chrome */
 }
 #Winner {
-  display: none;
+    display: none;
     position: fixed;
     top: 180px;
     left: 300px;
+    bottom: 0;
+    z-index: 2;
+    font-family: 'VT323', monospace;
+    font-weight: bolder;
+    font-size: 400px;
+    animation:question-title-animation 5s;
+    -webkit-animation:question-title-animation 5s infinite; /* Safari and Chrome */
+}
+#Loser {
+    display: none;
+    position: fixed;
+    top: 180px;
+    left: 350px;
     bottom: 0;
     z-index: 2;
     font-family: 'VT323', monospace;
