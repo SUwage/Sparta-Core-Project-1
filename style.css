@@ -8,6 +8,11 @@
   color:#000;
   font-weight:bold;
 }
+.main-background-container {
+  width:100%;
+  height:100%;
+  padding: 0;
+}
 #background-main-image {
   width:100%;
   height:758px;
@@ -68,6 +73,36 @@
   width: 100px;
   height: 100px;
 }
+#Straight-cutout {
+    position: fixed;
+    width: 120px;
+    height: 60px;
+    top: 20px;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#Up-cutout {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    left: 155px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#Facts-cutout {
+    position: fixed;
+    width: 110px;
+    height: 50px;
+    top: 20px;
+    left: 230px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
 #start-btn {
     position: fixed;
     width: 100%;
@@ -113,6 +148,9 @@
     bottom: 0;
     z-index: 2;
 }
+#modalBtn:focus {
+    outline: 0;
+}
 .modal-content {
     background-color: #fefefe;
     font-family: 'VT323', monospace;
@@ -136,12 +174,12 @@
     text-decoration: none;
     cursor: pointer;
 }
-#audio-control {
+#Audio-Image {
     position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 700px;
-    left: 200px;
+    width: 200px;
+    height: 200px;
+    top: 600px;
+    left: 20px;
     right: 0;
     bottom: 0;
     z-index: 2;
